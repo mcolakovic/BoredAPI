@@ -43,6 +43,7 @@ func getName(name string) (*Activity, error) {
 	return &activity, nil
 }
 
+// localhost:8080/name/Matija
 func main() {
 
 	router := gin.Default()
